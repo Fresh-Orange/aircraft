@@ -20,6 +20,9 @@ int main(void)
 	
 	nav.Init();
 	
+	//pwm.out_Init(4);
+	//motor.writeMotor(0,0,0,0);
+	
 	while(1)
 	{
 		FTC_Loop();

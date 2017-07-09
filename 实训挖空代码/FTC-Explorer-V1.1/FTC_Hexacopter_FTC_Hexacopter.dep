@@ -1,5 +1,5 @@
 Dependencies for Project 'FTC_Hexacopter', Target 'FTC_Hexacopter': (DO NOT MODIFY !)
-F (.\applications\FtcCopter.cpp)(0x5960E9E0)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftccopter.o --omf_browse .\build\ftccopter.crf --depend .\build\ftccopter.d)
+F (.\applications\FtcCopter.cpp)(0x5961E649)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftccopter.o --omf_browse .\build\ftccopter.crf --depend .\build\ftccopter.d)
 I (applications\FTC_Config.h)(0x565DB0DA)
 I (.\drivers\board.h)(0x565DBC08)
 I (.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x542FD3E2)
@@ -159,7 +159,7 @@ I (.\Math\FTC_Vector3.h)(0x5480557C)
 I (.\Math\FTC_Matrix3.h)(0x565DC02C)
 I (.\Math\FTC_Quaternion.h)(0x543B74BE)
 F (.\applications\FTC_Filter.h)(0x565DB2BE)()
-F (.\applications\FTC_FlyControl.cpp)(0x5961AAE5)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_flycontrol.o --omf_browse .\build\ftc_flycontrol.crf --depend .\build\ftc_flycontrol.d)
+F (.\applications\FTC_FlyControl.cpp)(0x5961E398)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_flycontrol.o --omf_browse .\build\ftc_flycontrol.crf --depend .\build\ftc_flycontrol.d)
 I (applications\FTC_FlyControl.h)(0x565DB346)
 I (applications\FTC_Config.h)(0x565DB0DA)
 I (.\drivers\board.h)(0x565DBC08)
@@ -259,7 +259,7 @@ I (applications\FTC_FlyControl.h)(0x565DB346)
 I (applications\FTC_Navgation.h)(0x5960EAC8)
 I (applications\FTC_Param.h)(0x565DB4FA)
 F (.\applications\FTC_IMU.h)(0x5960EA86)()
-F (.\applications\FTC_Motor.cpp)(0x5960E9B6)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_motor.o --omf_browse .\build\ftc_motor.crf --depend .\build\ftc_motor.d)
+F (.\applications\FTC_Motor.cpp)(0x5961E50D)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_motor.o --omf_browse .\build\ftc_motor.crf --depend .\build\ftc_motor.d)
 I (applications\FTC_Motor.h)(0x565DB45A)
 I (applications\FTC_Config.h)(0x565DB0DA)
 I (.\drivers\board.h)(0x565DBC08)
@@ -561,7 +561,7 @@ I (Math\FTC_Vector3.h)(0x5480557C)
 I (Math\FTC_Matrix3.h)(0x565DC02C)
 I (Math\FTC_Quaternion.h)(0x543B74BE)
 F (.\Math\FTC_Vector3.h)(0x5480557C)()
-F (.\drivers\board.c)(0x5961A7A2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\board.o --omf_browse .\build\board.crf --depend .\build\board.d)
+F (.\drivers\board.c)(0x5961C9A0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\board.o --omf_browse .\build\board.crf --depend .\build\board.d)
 I (drivers\board.h)(0x565DBC08)
 I (.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x542FD3E2)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x54AA1238)
@@ -761,7 +761,7 @@ I (drivers\FTC_Drv_PWM.h)(0x565DBEDE)
 I (drivers\FTC_Drv_EEPROM.h)(0x565DBCA6)
 I (drivers\FTC_Drv_ADC.h)(0x565DBC66)
 F (.\drivers\FTC_Drv_I2C_soft.h)(0x565DBD3C)()
-F (.\drivers\FTC_Drv_LED.cpp)(0x57668FA0)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_drv_led.o --omf_browse .\build\ftc_drv_led.crf --depend .\build\ftc_drv_led.d)
+F (.\drivers\FTC_Drv_LED.cpp)(0x5961E54A)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_drv_led.o --omf_browse .\build\ftc_drv_led.crf --depend .\build\ftc_drv_led.d)
 I (drivers\FTC_Drv_LED.h)(0x565DBD8A)
 I (drivers\board.h)(0x565DBC08)
 I (.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x542FD3E2)
@@ -911,7 +911,7 @@ I (drivers\FTC_Drv_PWM.h)(0x565DBEDE)
 I (drivers\FTC_Drv_EEPROM.h)(0x565DBCA6)
 I (drivers\FTC_Drv_ADC.h)(0x565DBC66)
 F (.\drivers\FTC_Drv_MS5611.h)(0x565DBE32)()
-F (.\drivers\FTC_Drv_Nrf24l01.cpp)(0x565DBE72)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_drv_nrf24l01.o --omf_browse .\build\ftc_drv_nrf24l01.crf --depend .\build\ftc_drv_nrf24l01.d)
+F (.\drivers\FTC_Drv_Nrf24l01.cpp)(0x5961C9CB)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\applications -I.\drivers -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Math --cpp-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\build\ftc_drv_nrf24l01.o --omf_browse .\build\ftc_drv_nrf24l01.crf --depend .\build\ftc_drv_nrf24l01.d)
 I (drivers\FTC_Drv_Nrf24l01.h)(0x565DBE92)
 I (drivers\board.h)(0x565DBC08)
 I (.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x542FD3E2)
