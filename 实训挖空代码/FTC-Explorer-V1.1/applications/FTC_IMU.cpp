@@ -92,7 +92,28 @@ Vector3f FTC_IMU::Get_Accel_Ef(void)
 //余弦矩阵更新姿态
 void FTC_IMU::DCM_CF(Vector3f gyro,Vector3f acc, float deltaT)
 {
-	//to do
+	//acc.get_rollpitch(angle);
+	//acc.get_yaw(angle);
+	
+	static Vector3f last_gyro;
+	static Vector3f angleNow;
+	angleNow = (gyro + last_gyro)*0.5*deltaT;
+	last_gyro = gyro;
+	
+	Matrix3<float> dcm;
+	dcm.from_euler(angleNow);
+	static Vector3f g(0,0,ACC_1G);
+	static Vector3f m(ACC_1G,0,0);
+	
+	g = dcm * g;
+	m = dcm * m;
+	FTC_Filter fi;
+	g = fi.CF_1st(g, acc, ftc.factor.gyro_cf);
+	//m = fi.CF_1st(m, acc, ftc.factor.gyro_cf);
+	
+	g.get_rollpitch(angle);
+	m.get_yaw(angle);
+	
 }
 
 #define Kp 2.0f        //加速度权重，越大则向加速度测量值收敛越快

@@ -33,7 +33,7 @@ void FTC_FlyControl::PID_Reset(void)
 //飞行器姿态外环控制
 void FTC_FlyControl::Attitude_Outter_Loop(void)
 {
-	motor.writeMotor(0,0,0,0);
+	//motor.writeMotor(0,0,0,0);
 }
 
 //飞行器姿态内环控制

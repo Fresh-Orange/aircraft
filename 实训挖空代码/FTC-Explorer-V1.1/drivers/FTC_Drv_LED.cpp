@@ -35,12 +35,12 @@ void FTC_LED::Init(void)
 
 void FTC_LED::ON1(void)
 {
-	GPIO_SetBits(GPIOC, GPIO_Pin_13);	
+	//GPIO_SetBits(GPIOC, GPIO_Pin_13);	
 }
 
 void FTC_LED::ON2(void)
 {		
-	GPIO_SetBits(GPIOC, GPIO_Pin_14);		
+	//GPIO_SetBits(GPIOC, GPIO_Pin_14);		
 }
 
 void FTC_LED::OFF1(void)

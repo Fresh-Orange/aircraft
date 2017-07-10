@@ -29,11 +29,11 @@ void FTC_Motor::writeMotor(uint16_t throttle, int32_t pidTermRoll, int32_t pidTe
 
 	for(u8 i = 1; i < MAXMOTORS; i++) motorPWM[i] = 0;
 	//如果未解锁，则将电机输出设置为最低
-	//if(!ftc.f.ARMED)	
-		//ResetPWM();
+	if(!ftc.f.ARMED)	
+		ResetPWM();
 
-	//if(!ftc.f.ALTHOLD && rc.rawData[THROTTLE] < RC_MINCHECK)
-	//	ResetPWM();
+	if(!ftc.f.ALTHOLD && rc.rawData[THROTTLE] < RC_MINCHECK)
+		ResetPWM();
 
 	//写入电机PWM
 	pwm.SetPwm(motorPWM);
